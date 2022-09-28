@@ -1,0 +1,130 @@
+<!DOCTYPE html><!-- Version de html, el DOCTYPE es la chida-->
+<html>
+	<head>
+		<title>Udemy Compi chido</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	</head>
+	<body>
+	<!--Etiquetas para títulos-->
+		<h1>Título de mi web</h1>
+		<h2>Bienvenidos a mi web</h2>
+	<!--Etiquetas para textos-->
+		<p>
+			Vestibulum ante ipsum <br/><br/>primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+			Vestibulum interdum magna nibh, vitae suscipit dolor facilisis et. In et tincidunt magna. 
+			Vestibulum commodo tristique augue non sollicitudin. In orci purus, dapibus nec elit nec, 
+			pulvinar lacinia tortor. Duis vel imperdiet magna. Quisque dapibus, erat quis ornare vehicula, 
+			arcu risus bibendum tellus, non ultricies ante velit sed risus. Interdum et malesuada fames ac 
+			ante ipsum primis in faucibus. Maecenas ac ex in metus aliquam tempus ut et sem. Maecenas nec 
+			euismod nibh. Ut vehicula dignissim consequat. Nunc facilisis rutrum ex, et vehicula sapien 
+			efficitur non. 
+			<blockquote>in risus vel augue eleifend mollis. In interdum dapibus libero ac ultricies. 
+			Nam posuere porttitor massa, id sodales lacus sodales sed. Etiam ipsum urna, congue quis libero in, 
+			porttitor suscipit quam. 	</blockquote> 
+		</p>
+		<p>
+			Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+			Vestibulum interdum magna nibh, vitae suscipit dolor facilisis et. In et tincidunt magna. 
+			Vestibulum commodo tristique augue non sollicitudin. In orci purus, dapibus nec elit nec, 
+			pulvinar lacinia tortor. Duis vel imperdiet magna. Quisque dapibus, erat quis ornare vehicula, 
+			arcu risus bibendum tellus, non ultricies ante velit sed risus. Interdum et malesuada fames ac 
+			<hr/>
+			ante ipsum primis in faucibus. Maecenas ac ex in metus aliquam tempus ut et sem. Maecenas nec 
+			euismod nibh. Ut vehicula dignissim consequat. Nunc facilisis rutrum ex, et vehicula sapien 
+			efficitur non. Curabitur in risus vel augue eleifend mollis. In interdum dapibus libero ac ultricies. 
+			Nam posuere porttitor massa, id sodales lacus sodales sed. Etiam ipsum urna, congue quis libero in, 
+			porttitor suscipit quam. 	
+		</p>
+
+		<hr/>
+			<h2>Imágenes en HTML</h2>
+			<img alt="Fallo en imagen" title="Hola" src="imagenes/Tt.jpg" width="400px" height="800px"/><!--alt es el texto por si falla la imagen, title es texto al hover de img-->
+		<hr/>
+		<h3>
+			Tercer encabezado de la página
+		</h3>
+		<p>
+			Vestibulum <strong>ante ipsum primis in faucibus orci luctus et ultrices</strong> posuere cubilia curae; 
+			Vestibulum <em>interdum magna nibh, vitae suscipit dolor facilisis et.</em> In et tincidunt magna. 
+			Vestibulum commodo tristique augue non sollicitudin. In orci purus, dapibus nec elit nec, 
+			pulvinar lacinia tortor. Duis vel imperdiet magna. Quisque dapibus, erat quis ornare vehicula, 
+			arcu risus bibendum tellus, non ultricies ante velit sed risus. Interdum et malesuada fames ac 
+			ante ipsum primis in faucibus. Maecenas ac ex in metus aliquam tempus ut et sem. Maecenas nec 
+			euismod nibh. Ut vehicula dignissim consequat. Nunc facilisis rutrum ex, et vehicula sapien 
+			efficitur non. Curabitur in risus vel augue eleifend mollis. In interdum dapibus libero ac ultricies. 
+			Nam posuere porttitor massa, <span id="resultado" class="rojo amarillo">id sodales lacus sodales sed.</span> Etiam ipsum urna, congue quis libero in, 
+			<i>porttitor suscipit quam.</i> 	
+			
+			</p>
+			<h3> Listas
+			</h3>
+	<ol>
+			<li>Hola</li>
+			<li>
+				<ol>
+					<li>Que</li>
+					<li>Todo</li>
+					<li>Culero</li>
+				</ol>
+			</li>
+			<li>Como</li>
+			<li>Estas</li>
+			<li>Tu</li>
+		</ol>
+		<ul>
+			<li>Hola</li>
+			<li>Como</li>
+			<li>Estas</li>
+			<li>Tu</li>
+		</ul>
+		<h3>Tablas</h3>
+		<table border="1">
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>País</th>
+			</tr>
+
+			<tr>
+				<td>Yo</td>
+				<td colspan="2">Mero</td>
+			</tr>
+			<tr>
+				<td>Chis</td>
+				<td>Toso</td>
+				<td>Chales</td>
+			</tr>
+		</table>
+		<h3>Formulario</h3>
+		<form>
+			<p>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" placeholder="Escribe tu nombre..."/>
+			</p>
+			<p>
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido" placeholder="Escribe tu apellido"/>
+			</p>	
+			<p>
+				<label for="descripcion">Descripcion</label>
+				<textarea name="descripcion">Hola </textarea>
+			</p>
+			<input type="radio" name="genero" name="hombre"> Hombre <br/>
+			<input type="radio" name="genero" name="hombre"> Mujer <br/>
+			<input type="radio" name="genero" name="hombre"> Nada <br/>
+
+			<select name="generos">
+
+				<option value="hombre">Hombre</option>
+				<option value="mujer">Mujer</option>
+				<option value="nada">Nada</option>
+				
+			</select>
+
+			<input type="submit" value="Enviar"/>
+
+		</form>
+	</body>
+	
+</html>
+
